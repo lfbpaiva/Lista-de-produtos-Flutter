@@ -1,16 +1,42 @@
-# at01segundobi
+# Lista de Produtos - Flutter
 
-A new Flutter project.
+Este é um projeto Flutter desenvolvido como exercício prático, que exibe uma lista de produtos com informações detalhadas. O app foi criado com o objetivo de aprender e praticar conceitos fundamentais de Flutter e gerenciamento de navegação entre telas.
 
-## Getting Started
+## 📱 Funcionalidades
 
-This project is a starting point for a Flutter application.
+- Exibição de uma lista de produtos com imagem, nome e preço.
+- Botão de "Informações" para cada produto, que redireciona para uma nova tela com detalhes.
+- Interface responsiva e organizada com containers personalizados.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠 Tecnologias Utilizadas
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [Flutter](https://flutter.dev/)
+- [Dart](https://dart.dev/)
+- Widgets básicos e avançados do Flutter (`ListView`, `Navigator`, `Container`, etc.)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📁 Estrutura de Pastas
+
+```
+/lib
+├── main.dart               # Arquivo principal
+├── lista.dart              # Tela inicial com a lista de produtos
+├── exibir.dart             # Widget responsável por exibir um item da lista
+├── informacoes.dart        # Tela de detalhes do produto
+├── produto.dart            # Classe Produto (modelo de dados)
+/assets/images              # Imagens dos produtos
+```
+
+## ▶️ Como Executar
+Clone o repositório:
+git clone https://github.com/lfbpaiva/Lista-de-produtos-Flutter.git
+
+Navegue até o diretório do projeto:
+cd Lista-de-produtos-Flutter
+
+Instale as dependências:
+flutter pub get
+
+Execute o projeto:
+flutter run
+
+Desenvolvido por [Luiz Felipe Barbosa Paiva](https://github.com/lfbpaiva) 🚀

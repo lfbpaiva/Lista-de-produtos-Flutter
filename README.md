@@ -23,7 +23,6 @@ Este é um projeto Flutter desenvolvido como exercício prático, que exibe uma 
 ├── exibir.dart             # Widget responsável por exibir um item da lista
 ├── informacoes.dart        # Tela de detalhes do produto
 ├── produto.dart            # Classe Produto (modelo de dados)
-/assets/images              # Imagens dos produtos
 ```
 
 ## ▶️ Como Executar

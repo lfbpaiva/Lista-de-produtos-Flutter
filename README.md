@@ -26,16 +26,22 @@ Este é um projeto Flutter desenvolvido como exercício prático, que exibe uma 
 ```
 
 ## ▶️ Como Executar
+
 Clone o repositório:
+
 git clone https://github.com/lfbpaiva/Lista-de-produtos-Flutter.git
 
 Navegue até o diretório do projeto:
+
 cd Lista-de-produtos-Flutter
 
 Instale as dependências:
+
 flutter pub get
 
 Execute o projeto:
+
 flutter run
 
-Desenvolvido por [Luiz Felipe Barbosa Paiva](https://github.com/lfbpaiva) 🚀
+
+## Desenvolvido por [Luiz Felipe Barbosa Paiva](https://github.com/lfbpaiva) 🚀
